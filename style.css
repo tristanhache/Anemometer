@@ -26,7 +26,11 @@ body {
     text-align: center;
   } 
 
-  h4 {
+  .title {
     text-align: center;
     color: rgb(0, 0, 0);
   } 
+
+#countdown {
+  text-align: center;
+} 
