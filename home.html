@@ -5,19 +5,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h4>Aneomètre Compteur</h4>
+    <h2 class="title">Aneomètre Compteur</h3>
+    <div id="countdown">
+        Stop dans <span id="time">01:00</span> Secondes!
+       </div>
     <script>
-        var clicks = 0;
+       let count = 0;
        function myFunction() {
-   
-           clicks += 1;
-           document.getElementById("demo").innerHTML = clicks;
-   
-   
-       }
+         count+=1;
+         document.getElementById("btn").innerHTML = count;
+
+ }
    </script>
-   <button class="button" onclick="myFunction()">Click Here</button>
-   <p id="demo"></p>
+<button class="button" type="button" onClick="onClick()">Click me</button>
+<p>Nombre de tours : <a id="clicks">0</a></p>
+
+   <script src="javascript.js"></script>
+
+
+
 
 </body>
 </html>
